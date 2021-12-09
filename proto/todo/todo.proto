@@ -14,7 +14,9 @@ message GetTodoResponse{
     string Description = 3; 
 }
 
-message GetTodosRequest{}
+message GetTodosRequest{ 
+    
+}
 
 service TodoService{
     rpc GetTodo(GetTodoRequest) returns (GetTodoResponse){}

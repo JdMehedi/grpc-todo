@@ -32,6 +32,7 @@ type GetTodoRequest struct {
 	ID int64 `protobuf:"varint,1,opt,name=ID,proto3" json:"ID,omitempty"`
 }
 
+
 func (x *GetTodoRequest) Reset() {
 	*x = GetTodoRequest{}
 	if protoimpl.UnsafeEnabled {
